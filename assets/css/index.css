@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* con esta propiedad establecemos que el objeto no afecte su tamaño independiente de las propiedades que se definan, por ejemplo un padding*/
+    list-style: none;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.color-letra{
+    color:#E85D04
+}
+
+.img-icon{
+    height: 200px;
+    width: 200px;
+}
+
+.border-container{
+    box-shadow: 0 0 8px #333;
+}
+
+.mensajeAlerta{
+    color:red;
+    font-size: 14px;
+}
+
+.alert{
+    background-color:rgba(248, 193, 193, 0.61);
+}
+
+.border-inferior{
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #03071E;
+}
+
+.contenedorCategorias>ul>li>div{
+    background-color: #ffc107;
+    color: #212529;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 40px;
+    cursor:pointer;
+}
+
+.contenedorCategorias>ul>li>div:hover{
+    color: #212529;
+    background-color: #e0a800;
+}
+
+.form-inline>input{
+    width: 300px !important;
+}
+
+.tabla-encabezado{
+    border-bottom: 4px solid #212e3f67;
+}
+
+.table-admin>tbody>tr:nth-child(2n){
+    background:#a8dadc81;
+}
+
+.table-admin>tbody>tr:hover {
+    background:#caa32d77;
+}
